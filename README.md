@@ -12,10 +12,10 @@ Passive Buzzer:     - -> GND
 Green LED:          Anode -> Resisitor -> Pin 21
                     Cathode -> GND
 
-Yellow LED:          Anode -> Resisitor -> Pin 22
+Yellow LED:         Anode -> Resisitor -> Pin 22
                     Cathode -> GND
 
-Red LED:          Anode -> Resisitor -> Pin 23
+Red LED:            Anode -> Resisitor -> Pin 23
                     Cathode -> GND
 
 Ultrasonic sensor:  Vcc -> VIN
