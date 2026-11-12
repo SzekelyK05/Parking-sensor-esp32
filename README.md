@@ -1,7 +1,7 @@
 # Parking-sensor-esp32
 
 ## Bill of Materials
-The project needs an esp32 (ESP32-WROOM-32),  HW-508 passive buzzer, a HC-SR04 ultrasonic sensor, 3 LEDs (green, yellow, red), 3 resistors, breadboard and jumper wires.
+The project needs an esp32 (ESP32-WROOM-32),  HW-508 passive buzzer, a HC-SR04 ultrasonic sensor*, 3 LEDs (green, yellow, red), 3 resistors, breadboard and jumper wires.
 No soldering needed.
 
 
@@ -17,6 +17,8 @@ Yellow LED:         Anode -> Resisitor -> Pin 22
 
 Red LED:            Anode -> Resisitor -> Pin 23
                     Cathode -> GND
+
+*For standard HC-SR04 ultrasonic sensor connect a 1k ohm resistor in series from Echo to Esp32 pin and a 2k ohm resistor from the Esp32 pin to Gnd (for dividing 5V input voltage to safe 3.3V).
 
 Ultrasonic sensor:  Vcc -> VIN
                     Trig -> Pin 18
